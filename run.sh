@@ -3,4 +3,4 @@
 # 等待系统初始化成功
 sleep 10
 rm -rf /home/root/workspace/helmet/nohup.out
-sudo /usr/bin/python /home/root/workspace/helmet/main.py
+sudo /usr/bin/python /home/root/workspace/helmet/helmet_main_process.py

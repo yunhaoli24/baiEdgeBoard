@@ -118,7 +118,7 @@ def video_process(video_path, helmet_model, socket_video_flag, video_width, vide
             boxes = helmet_model.predict(frame_read)
             cast_origin(boxes, helmet_model.image_width, helmet_model.image_height, frame_read.shape)
 
-            print_results(boxes, helmet_model.label_names)
+            # print_results(boxes, helmet_model.label_names)
             draw_results(frame_read, boxes, helmet_model.colors, helmet_model.label_names, False)
             serial_thread.set_data(boxes)
 
