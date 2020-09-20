@@ -1,0 +1,10 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "python.pythonPath": "/usr/bin/python",
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+}
